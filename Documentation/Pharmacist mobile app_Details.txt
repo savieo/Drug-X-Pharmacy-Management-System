@@ -1,0 +1,30 @@
+Pharmacist Mobile application
+------------------------------
+Login page:
+User login in application in login page with their assigned username and password,
+From these creditionals application sends an api call and from the response application decides whether it is pharmacist or stock manager.
+Home page-Pharmacist:-
+
+This page has a search bar in which user can search products for pharmacist .
+Pharmacist selects products in checklist and click confirm which takes the app to next page Order detail page.
+Home page-Stock_Manager:-
+
+This page has a search bar in which user can search supplier in case of stock manager.Api call response provides the supplier name.Then he can select Supplier from the list,This select takes him to order detail page
+
+Order Detail page-Pharmacist:
+Display the products details from api call response.It also has the functionality to edit or remove a particular product order.The Order button takes us to Order summary page.
+
+Order Detail page-Stock_Manager:-
+Display the products from the particular supplier which we have limited/no stock.It also has the functionality to edit or remove a particular product order.The Order button takes us to Order summary page.
+
+
+Order Summary page-Pharmacist/Stock Manager:
+Product details with unit price and grand total is displayed
+
+Customer Detail collection page:Pharmacist:
+
+Get the customer details in the form. Place order button click will trigger an api call in which All final  data of a particular order will be send to server.
+
+Supplier Detail confirmation page- Stock Manager:
+
+confirms the supplier details.Place order button click will trigger an api call in which All final  data of a particular order will be send to server.
